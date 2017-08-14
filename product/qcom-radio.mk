@@ -20,3 +20,12 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
     libxml2
+
+# Telephony packages
+PRODUCT_PACKAGES += \
+    Stk \
+    CellBroadcastReceiver \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
